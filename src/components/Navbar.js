@@ -26,7 +26,7 @@ const Navbar = () => {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/Portfolio'
                 className='nav-links'
                 onClick={closeMobileMenu}>
                 Portfolio

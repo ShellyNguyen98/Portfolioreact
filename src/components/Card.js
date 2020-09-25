@@ -14,13 +14,11 @@ const Card = () => {
               src='/img/img.png'
               text='Project Bite-Wallet, deploying a stock website that use JavaScript, html and css. '
               label='Project 1'
-              a href = 'www.google.com'
             />
             <CardItem
               src='/img/Ranch.png'
               text='A project using Node, Express and Sequelize to deploy a website that is used by horse ranches.'
               label='Project 2'
-              path='/'
             />
           </ul>
             </div>
