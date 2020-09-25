@@ -14,7 +14,7 @@ const Card = () => {
               src='/img/img.png'
               text='Project Bite-Wallet, deploying a stock website that use JavaScript, html and css. '
               label='Project 1'
-              path='/'
+              a href = 'www.google.com'
             />
             <CardItem
               src='/img/Ranch.png'
