@@ -16,7 +16,7 @@ const Card = () => {
               label='Project 1'
             />
             <CardItem
-              src='/img/Ranch.png'
+              img='/img/Ranch.png'
               text='A project using Node, Express and Sequelize to deploy a website that is used by horse ranches.'
               label='Project 2'
             />
