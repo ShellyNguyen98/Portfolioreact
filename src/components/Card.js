@@ -13,12 +13,17 @@ const Card = () => {
             <CardItem
               src='/img/img.png'
               text='Project Bite-Wallet, deploying a stock website that use JavaScript, html and css. '
-              label='Project 1'
+              label='Bite-Wallet'
             />
             <CardItem
-              img='/img/Ranch.png'
-              text='A project using Node, Express and Sequelize to deploy a website that is used by horse ranches.'
-              label='Project 2'
+              src='/img/Ranch.png'
+              text='Project Ranch-hand, using Mongoose database, Node to deploy a website for ranch owners to keep track of the well-being of their horses.'
+              label='Ranch-hand'
+            />
+           <CardItem
+              src='/img/gif.gif'
+              text='Creating a read-me generator so that I can quickly create a professional ReadMe.'
+              label='Read-Me Generator'
             />
           </ul>
             </div>
