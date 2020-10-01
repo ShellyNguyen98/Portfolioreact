@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # This is a gif of how my portfolio work!
-![](./img/PortfolioGIF.gif)
+![Portfolio GIF](./public/img/PortfolioGIF.gif)
 
 
 ## Available Scripts
