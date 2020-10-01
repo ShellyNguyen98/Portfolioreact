@@ -3,27 +3,32 @@ import './HomeCard.css';
 
 const HomeCard = () => {
     return (
-        <div className="card">
-        <div className="card-image"></div>
-        <div className="card-text">
-          <span className="date">4 days ago</span>
-          <h2>Post One</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+        <div className="cardsnone">
+            <div className="card">
+                <div className="card-image"></div>
+                <div className="card-text">
+                    <span className="date">About Me</span>
+                    <h2>Shelly Nguyen</h2>
+                    <p>I am currently attending UCI Coding Bootcamp to learn about CSS/HTML, Node and React!</p>
+                </div>
+                <div className="card-stats">
+                    <div className="stat">
+                        <a href="https://www.linkedin.com/in/trang-nguyen-518a4b159/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i className="fab fa-linkedin-in"></i></a>
+
+                    </div>
+                    <div className="stat border">
+                        <a href="https://github.com/ShellyNguyen98"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        ><i className="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="card-stats">
-          <div className="stat">
-          <a href= "https://www.instagram.com"><i className="fab fa-instagram"></i></a>
-            
-          </div>
-          <div className="stat border">
-            <a href= "www.instagram.com"><i className="fab fa-facebook-f"></i></a>
-          </div>
-          <div className="stat">
-            <a href= "www.instagram.com"><i className="fab fa-yelp"></i></a>
-          </div>
-        </div>
-      </div>
     )
 }
 
-export default Homecard
+export default HomeCard

@@ -11,6 +11,12 @@
     font-family: roboto;
     text-align: center;
   }
+  .cardsnone {
+    padding: 4rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
   .card-image {
     grid-area: image;
   }
@@ -64,8 +70,8 @@
     color: white;
     padding:10px;
   }
-  .fa-instagram {
-      color: red;
+  .fa-linkedin-in {
+      color: #0e76a8;
       font-size: 30px;
   }
   .fa-facebook {
@@ -85,3 +91,6 @@
     cursor: pointer;
     margin:30px;
   }
+ .fa-github {
+     font-size: 30px;
+ }
